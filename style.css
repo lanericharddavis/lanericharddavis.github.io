@@ -1,0 +1,31 @@
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+position: fixed;
+top: 0;
+width: 100%;
+overflow: hidden;
+z-index: 10;
+}
+
+main{
+  margin-top: 88px;
+}
+
+.top-bg-img{
+  background-image: url(./portfolio-background.png);
+  background-size:cover;
+  background-position: center;
+  height:20rem;
+}
+
+.title-text{
+  font-size: 85px;
+  font-weight: bolder;
+}
+
+.green{
+  background-color: rgb(24, 46, 4);
+}
