@@ -15,10 +15,14 @@ main{
 }
 
 .top-bg-img{
-  background-image: url(./portfolio-background.png);
+  background-image: url(./me-sitting.jpg);
   background-size:cover;
-  background-position: center;
-  height:20rem;
+  background-position-y: -100px;
+  height:50rem;
+}
+
+.moved-btn{
+
 }
 
 .title-text{
@@ -28,4 +32,67 @@ main{
 
 .green{
   background-color: rgb(24, 46, 4);
+}
+
+.card{
+  height: 160px;
+  width: fit-content;
+}
+
+.short-solid{
+  border-top: 5px solid red;
+}
+
+.bg-inspired{
+  background-image: url(/assets/Inspired.png);
+    background-size:cover;
+}
+.bg-kanban{
+  background-image: url(/assets/Kanban.png);
+    background-size:cover;
+}
+.bg-lendme{
+  background-image: url(/assets/LendMe-Screenshot.png);
+    background-size:cover;
+}
+.bg-keepr{
+  background-image: url(/assets/Keepr.png);
+    background-size:cover;
+}
+
+.bg-html{
+  background-image: url(/assets/html.png);
+    background-size:cover;
+}
+.bg-css{
+  background-image: url(/assets/CSS.png);
+    background-size:cover;
+}
+.bg-js{
+  background-image: url(/assets/JavaScript.png);
+    background-size:cover;
+}
+.bg-git{
+  background-image: url(/assets/git.png);
+    background-size:cover;
+}
+.bg-bootstrap{
+  background-image: url(/assets/bootstrap.png);
+    background-size:cover;
+}
+.bg-vue{
+  background-image: url(/assets/Vue.png);
+    background-size:cover;
+}
+.bg-mongodb{
+  background-image: url(/assets/mongodb.png);
+    background-size:cover;
+}
+.bg-cs{
+  background-image: url(/assets/csharp.png);
+    background-size:cover;
+}
+.bg-mysql{
+  background-image: url(/assets/mySQL.png);
+    background-size:cover;
 }
